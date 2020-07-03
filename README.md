@@ -1,8 +1,19 @@
-undertow-hello-world-server
-===========================
+# hello-world-undertow-kotlin-gradle
 
-The smallest http://undertow.io server you can write. The example on their front page is borked, so here's a project you can download and run with:
+The smallest http://undertow.io server you can write. The example on their front page is borked, so here's a project you can start with.
 
-    gradle run
+## Instructions
 
-And then visit http://127.1:8080/
+Build:
+
+```
+./gradlew clean build
+```
+
+Run:
+
+```
+./gradlew run
+```
+
+See the server response at: http://localhost:8080
