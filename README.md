@@ -1,6 +1,6 @@
 # hello-world-undertow-kotlin-gradle
 
-The smallest http://undertow.io server you can write. The example on their front page is borked, so here's a project you can start with.
+A simple server with a single REST endpoint.
 
 ## Instructions
 
@@ -16,4 +16,6 @@ Run:
 ./gradlew run
 ```
 
-See the server response at: http://localhost:8080
+To debug, attach debugger to port 5000.
+
+See the server response at: http://localhost:8080/api/greeting
