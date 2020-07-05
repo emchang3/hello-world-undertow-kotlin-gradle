@@ -1,2 +1,8 @@
+# Project Artifacts
+
 /build
 /.gradle
+
+# OSX Artifacts
+
+.DS_Store
